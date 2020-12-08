@@ -1,9 +1,8 @@
-![AndrOBD](fastlane/metadata/android/en-US/images/tvBanner.png)
-
-### Android OBD diagnostics with any ELM327 adapter
+# AndrODB - Android OBD diagnostics with any ELM327 adapter
 
 ![Android CI](https://github.com/fr3ts0n/AndrOBD/workflows/Android%20CI/badge.svg)
 
+<!-- markdownlint-disable MD033 -->
 <table>
 <tr>
   <td>
@@ -18,10 +17,26 @@
   </td>
 </tr>
 </table>
+<!-- markdownlint-enable MD033 -->
 
-# Features
+## Installation and Building
 
-## OBD connections
+If you are building this for the first time you should:
+
+1. Change the application id in [build.gradle](androbd/build.gradle) or in
+   Android Studio edit this in `File/Project Structure` and it should be unique
+  if you have forked the repo.
+2. You should change version number as well with VersionCode as you update
+   it.
+3. If you submitting this to Google Play, then you will need image artifacts in
+   [Fastlane](fastlane)  so check there for uploading image icons and
+   screenshots.
+
+## Features
+
+Major features for ODB connections.
+
+### OBD connections
 
 * Bluetooth
 * USB
@@ -47,27 +62,27 @@
 
 ## Customisation of PID data
 
-+ PID data items
-+ Data conversions
+* PID data items
+* Data conversions
 
 ## Plugin extension support
 
-- Development: [AndrOBD-Plugin repository](https://github.com/fr3ts0n/AndrOBD-Plugin)
-- Available Plugins:
-  - MQTT publisher - Publish OBD data to MQTT broker
-  - GpsProvider - Provide GPS data to AndrOBD
-  - SensorProvider - Provide Accelerometer data to AndrOBD
+* Development: [AndrOBD-Plugin repository](https://github.com/fr3ts0n/AndrOBD-Plugin)
+* Available Plugins:
+  * MQTT publisher - Publish OBD data to MQTT broker
+  * GpsProvider - Provide GPS data to AndrOBD
+  * SensorProvider - Provide Accelerometer data to AndrOBD
 
 ## Native language support
- 
-+ translatable via [weblate.org](https://hosted.weblate.org/projects/androbd/strings/)
-  + Program dialogs
-  + Data item descriptions
-  + Fault code descriptions
 
-# Project support
+* translatable via [weblate.org](https://hosted.weblate.org/projects/androbd/strings/)
+  * Program dialogs
+  * Data item descriptions
+  * Fault code descriptions
 
-## Development support
+## Project support
+
+### Development support
 
 ### AndrOBD project wiki
 
@@ -93,29 +108,33 @@ Discussions and chats
 
 You are invited to contribute a [translation into your favourite language](https://hosted.weblate.org/engage/androbd/).
 
-# Hall of fame
+## Hall of fame
 
-## Graphic design
+### Graphic design
 
 Very special Thanks to @anaufalm for the
 [beautiful graphic design artwork and logos](https://steemit.com/utopian-io/@naufal/my-design-logo-for-androbd-valid-commit-and-added-to-v2-0-3).
 
-## Start page
+### Start page
 
 Thank you very much @sampoder for your beautiful [AndrOBD start page](https://fr3ts0n.github.io/AndrOBD/)
 
-## Internet promotion
+### Internet promotion
 
-Big hands to @aha999 for promoting [AndrOBD on Reddit](https://www.reddit.com/r/AndrOBD/) and for many ideas to improve AndrOBD.
+Big hands to @aha999 for promoting [AndrOBD on
+Reddit](https://www.reddit.com/r/AndrOBD/) and for many ideas to improve
+AndrOBD.
 
-## Translations
+## Translations Status
 
 Thanks to all hard-working translators for their [contributions](https://hosted.weblate.org/engage/androbd/).
-<br>You all do a incredible job!
+
+You all do a incredible job!
 
 [![Translation status](https://hosted.weblate.org/widgets/androbd/-/multi-auto.svg)](https://hosted.weblate.org/engage/androbd/?utm_source=widget)
 
-(Special thanks to [Michal Čihař](https://github.com/nijel) for hosting translations on [weblate.org](http://weblate.org/).)
+(Special thanks to [Michal Čihař](https://github.com/nijel) for hosting
+translations on [weblate.org](http://weblate.org/).)
 
 ## Donations
 
@@ -134,6 +153,7 @@ It feels good to see that our work is appreciated.
 | 2020/06 | rusefi llc | €25 |
 | 2020/07 | Klemen Skerbiš | €5 |
 
+<!-- markdownlint-disable MD033 -->
 <table>
   <tr>
     <th colspan="3">Thank you for any project support:</th>
@@ -145,7 +165,8 @@ It feels good to see that our work is appreciated.
   </tr>
   <tr>
     <td align="center">
-      <a href="https://liberapay.com/fr3ts0n/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+      <a href="https://liberapay.com/fr3ts0n/donate">
+      <img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
     </td>
     <td>Liberapay.com</td>
     <td>
@@ -153,8 +174,12 @@ It feels good to see that our work is appreciated.
     </td>
   </tr>
   <tr>
-    <td align="center"><a href="bitcoin:19UApzsc5eDJ5VNDNYCA1bpszPnkcpWeFP"><img src="https://bitcoin.org/img/icons/logotop.svg" alt="Bitcoin"/></a></td>
-    <td align="center"><a href="bitcoin:19UApzsc5eDJ5VNDNYCA1bpszPnkcpWeFP"><img src="manual/bitcoin_qr_code.png" alt="bitcoin:19UApzsc5eDJ5VNDNYCA1bpszPnkcpWeFP" width="128px" height="128px"></a></td>
+    <td align="center"><a href="bitcoin:19UApzsc5eDJ5VNDNYCA1bpszPnkcpWeFP">
+      <img src="https://bitcoin.org/img/icons/logotop.svg" alt="Bitcoin"/></a></td>
+    <td align="center"><a href="bitcoin:19UApzsc5eDJ5VNDNYCA1bpszPnkcpWeFP">
+      <img src="manual/bitcoin_qr_code.png" alt="bitcoin:19UApzsc5eDJ5VNDNYCA1bpszPnkcpWeFP"
+      width="128px" height="128px"></a></td>
     <td><a href="bitcoin:19UApzsc5eDJ5VNDNYCA1bpszPnkcpWeFP">19UApzsc5eDJ5VNDNYCA1bpszPnkcpWeFP</a></td>
   </tr>
 </table>
+<!-- markdownlint-enable MD033 -->
